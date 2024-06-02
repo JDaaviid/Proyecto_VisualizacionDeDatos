@@ -138,7 +138,8 @@ def cargarGraficoBarrasFiltradoEstudios(mapa_ccaa, df, tipo_tasa, ambito_estudio
             cmap='inferno_r', 
             column='Total', 
             legend=True, 
-            cax=cax,    
+            cax=cax,  
+            legend_kwds={'label': "Tasa en cada CCAA", 'orientation': "horizontal"}  
         )
 
     cbar = axis.get_figure().colorbar(axis.collections[0], cax=cax, orientation='horizontal')
