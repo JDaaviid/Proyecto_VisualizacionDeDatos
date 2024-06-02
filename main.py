@@ -42,7 +42,7 @@ class MultiApp:
                 options=['Inicio', 'Estadísticas de los Universitarios','Tasas de Actividad laboral y Paro'],
                 icons=['box-arrow-in-right','journal-bookmark-fill','bar-chart-line'],
                 menu_icon='list',
-                default_index=1,
+                default_index=0,
                 
                 styles={
                     "container": {"padding": "5!important","background-color":'black'},
