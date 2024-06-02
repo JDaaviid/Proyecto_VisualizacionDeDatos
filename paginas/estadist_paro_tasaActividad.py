@@ -1,12 +1,10 @@
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
-import numpy as np
 import plotly.graph_objects as go
 import plotly.express as px
 import geopandas as gpd
 from mpl_toolkits.axes_grid1 import make_axes_locatable
-#import os
 
 
 

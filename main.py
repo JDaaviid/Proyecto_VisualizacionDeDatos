@@ -4,8 +4,6 @@ from streamlit_option_menu import option_menu
 
 from paginas import inicio, estadist_universitarios, estadist_paro_tasaActividad
 
-import csv
-import pandas as pd
 
 st.set_page_config(
         page_title="Trabajo de Visualización de Datos",
@@ -38,12 +36,6 @@ class MultiApp:
 
     def run():
         
-        # peliculas, peliculas_dic = load_peliculas()
-        # st.session_state.peliculas_dic = peliculas_dic
-        # st.session_state.peliculas = peliculas
-        # st.session_state.dataset_pelis_extra = load_peliculas_info_extra()
-
-        
         with st.sidebar:        
             app = option_menu(
                 menu_title='Menú',
@@ -68,8 +60,7 @@ class MultiApp:
         if app == "Tasas de Actividad laboral y Paro":
             estadist_paro_tasaActividad.app()
     
-             
-     
+            
              
     run()            
          

@@ -1,0 +1,8 @@
+streamlit
+streamlit_option_menu
+mpl_toolkits
+geopandas
+plotly.express
+plotly.graph_objects
+matplotlib
+pandas
