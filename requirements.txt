@@ -1,7 +1,6 @@
 streamlit
 streamlit_option_menu
 geopandas
-plotly.express
-plotly.graph_objects
+plotly
 matplotlib
 pandas
